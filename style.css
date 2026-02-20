@@ -1,6 +1,13 @@
-*{
-    background-color: rgba(118, 186, 245, 0.993);
-}
+/* *{
+    background-color: rgba(191, 208, 223, 0.993);
+} */
 h1{
     color: rgb(6, 43, 5);
 }
+.swim{
+    color: orangered;
+}
+ .sport{
+     background-color: orchid;
+
+ }
