@@ -1,12 +1,10 @@
 body{
-  background-color: rgba(238, 206, 164, 0.788);
-  font-family: Arial, Helvetica, sans-serif;
-  width: fit-content;
-  margin: 30px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header{
    text-align: center;
@@ -20,43 +18,55 @@ header{
 }
 .navdiv{
     margin: 0;
-    background-color: hsl(245, 93%, 5%);
+    padding: 10px;
+    background-color: rgb(6, 6, 61);
     display: flex;
     border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
-li{
+.navbar{
     list-style: none;
-    display: inline;  
+    display: inline;
+    justify-content: space-between;
+    gap: 60px;
 }
 li a{
-    color: rgb(233, 85, 17);
-    font-size: 25px;
-    margin-left: 50px;
+  color: white;
+    font-size: 20px;
     font-weight: bold;
-    justify-content: space-between;  
 }
 li a:hover{
-    color: rgb(81, 187, 81);
-}
-.logo{
-  width: 50px;
-  border-radius: 10px;
-}
-h1{
-  color: rgb(6, 6, 110);
-}
-.vision{
-  margin: 10px;
-  padding: 10px;
-  border: solid rgb(4, 4, 37);
-  border-radius: 10px;
+    color: rgb(15, 207, 79);
 }
 h2{
-  color: rgb(27, 3, 240);
   text-align: center;
 }
 video{
   width: 150px;
   height: 250px;
   border-radius: 5px;
+}
+.container{
+  display: flex;
+  align-content: center;
+  gap:10px;
+  text-align: center;
+  margin: 30px;
+}
+.child{
+  border: 1px solid brown;
+  background-color: burlywood;
+  border-radius: 250px;
+  padding: 30px;
+  flex: 1;
+  height: 300px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+}
+footer{
+  background-color: rgb(6, 6, 61);
+  color: white;
 }
